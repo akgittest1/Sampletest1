@@ -1,0 +1,130 @@
+
+Navigational methods
+Firefoxdriver()
+get() :string
+Navigate.to
+-Navigate.forward()
+-Navigate.back
+-Navigate.Refresh
+
+
+
+Data capture methods
+getTitle();
+getpagesource();
+getcurrentURL();
+GetwindowHandle()
+GetwindowHandles()
+
+
+Window control methods:
+Manage().Window().maximize()
+Manage().window.setsize()
+Manage.deletecookies();
+-Close()
+-Quit()
+
+
+Verification methods:
+Findelement
+findelements
+
+============================
+TestNG @DataProvider 
+
+It helps you to write data-driven tests which essentially means that same test method can be run multiple times with different data-sets.
+
+============================
+Default Selenium tests do not generate a proper format for the test results. Using TestNG we can generate test results. ... Using testng, you can execute multiple test cases on multiple browsers, i.e., cross browser testing. The testing framework can be easily integrated with tools like Maven, Jenkins, etc.
+
+=============================
+
+#1) Checked Exception: Checked exception is handled during compile time and it gives the compilation error if it is not caught and handled during compile time.
+
+Example: FileNotFoundException, IOException etc.
+
+#2) Unchecked Exception: In case of the unchecked exception, a compiler does not mandate to handle. The compiler ignores during compile time.
+
+Example: ArrayIndexoutOfBoundException
+
+====================
+Exception Handling
+Try and Catch block:
+
+try-catch blocks are generally used to handle exceptions. Type of exceptions is declared in catch block which is expected to come. When an exception comes in try block, immediately control moves to catch block.
+========================
+throws Exception:
+
+throws keyword in java is used to throw an exception rather than handling it. All checked exceptions can be thrown by methods.
+
+
+Example:
+
+1
+public static void main(String[] args) throws IOException
+2
+{
+3
+BufferedReader br=new BufferedReader(new FileReader("Data"));
+4
+     while ((line = br.readLine()) != null)
+5
+         {
+6
+           System.out.println(line);
+7
+         }
+8
+}
+
+====================================
+finally block:
+
+finally, block executes irrespective of execution of try-catch block and it executes immediately after try/catch block completes.
+
+Basically file close, database connection etc. can be closed in finally block.
+
+Example:
+
+view sourceprint?
+1
+try {
+2
+    br = new BufferedReader(new FileReader("Data"));
+3
+    } catch(IOException ie)
+4
+    {
+5
+      ie.printStackTrace();
+6
+    }
+7
+Finally {
+8
+          br.close();
+9
+        }
+
+================
+
+Throwable: Throwable is a parent class for error and exception. Generally, it is difficult to handle errors in java. If a programmer is not sure about the type of error and exception, then it is advised to use the Throwable class which can catch both error and exception.
+
+Example:
+
+view sourceprint?
+1
+try {
+2
+   br = new BufferedReader(new FileReader("Data"));
+3
+     } catch (Throwable t)
+4
+     {
+5
+       t.printStackTrace();
+
+
+========================
+
+

@@ -1,0 +1,44 @@
+Q) Dwaw your frame work
+Q) Explain framework
+
+
+****) how you will perform Only Smoke test using TestNG.xml 
+
+***2) Did you used Test NG report or extended report how you will test
+
+Q) how to handle dynamic webelements ?
+a) Starts with, ends with Contains
+
+Q) what all methods we have to select dropdown
+A) By index, by value and by visible text.
+
+Q) what is the authentication and authorization
+5) 
+
+Q) 
+
+
+
+API Testing:
+1) what are the imp compenets to test webservices
+A) URI, Authen
+2) 
+
+
+Q) what is Hashmap
+
+
+Q)Difference b/w method overloading and Overriding
+
+Q) EXAMPLE FOR METHOD OVERRIDING AND OVERLAODING, WHERE YOU USER IN UR PROJECT
+
+
+
+
+
+======================
+WHAT IS INTERFACE
+Q) DIFFERENCE B/W INTERFACE AND ABSTRACT
+Q) what is super()
+Q) DIFFERENCE B/W ASSER AND VERIFY
+Q) 
